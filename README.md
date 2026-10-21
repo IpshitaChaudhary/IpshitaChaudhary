@@ -1,114 +1,45 @@
-# Hi there, I'm Ipshita Chaudhary 👋
+# Ipshita Chaudhary
 
-## DevOps Engineer | AWS | Terraform | Kubernetes | Docker | CI/CD
+**DevOps, SRE & Cloud Infrastructure Engineer** · AWS · Terraform · Kubernetes · CI/CD
 
-Welcome to my GitHub! I'm a DevOps Engineer with 5+ years of experience in designing, automating, and managing cloud infrastructure and CI/CD pipelines. I'm passionate about building scalable, secure, and reliable and automated systems while continuously learning new technologies.
+I build cloud platforms that ship faster and stay up. Five years across e-commerce, SaaS, FinTech, Healthcare and Banking: migrations without planned downtime, pipelines that won't ship a failing build, and production access that is scoped to a person and audited.
 
----
-
-## 🚀 About Me
-
-* 💼 DevOps Engineer with 5+ years of industry experience
-* ☁️ Experienced in AWS cloud infrastructure and automation
-* 🛠️ Passionate about Infrastructure as Code, Kubernetes, and CI/CD
-* 📈 Focused on improving deployment reliability, automation, monitoring, and cloud operations
-* 🌱 Currently expanding my knowledge in GitOps, Platform Engineering, and advanced Kubernetes
+**Based in India (IST) · open to roles in any country and any time zone · relocation or remote · notice period: 2 months**
 
 ---
 
-## 🛠️ Tech Stack
+### What I've delivered
 
-### Cloud
+| Result | How |
+|---|---|
+| **3x release velocity** | CI/CD (Jenkins, GitHub Actions, CodePipeline) with automated test stages, SonarQube as a hard quality gate, and rollback built into every deploy, replacing manual QA sign-off |
+| **MTTR 45 → 28 min (~35%)** | Datadog and Prometheus across 20+ microservices, 15 SLOs tied to user-facing reliability, PagerDuty routing straight to on-call |
+| **~40% compute cost cut** | Right-sized ECS task definitions from real CPU/memory profiles and tuned autoscaling to actual traffic |
+| **~70% faster environment setup** | Reusable Terraform modules (VPC, ECS, ALB, IAM) shared across Dev, UAT and Prod |
+| **99.9%+ availability** | Multi-AZ ECS/EKS with health checks, autoscaling, rolling updates and RBAC-isolated namespaces |
 
-* AWS
-* Azure
-* Google Cloud Platform
+### Featured work
 
-### Infrastructure as Code
+- **[ipshita_terraform_infrastructure_module](https://github.com/IpshitaChaudhary/ipshita_terraform_infrastructure_module)**: 17 security-first AWS Terraform modules (ECS, EKS, App Runner, Lambda, VPC, IAM, S3, SQS, SNS, ElastiCache, CloudFront, Route 53 and more). Encrypted, private and least-privilege by default, and every module is validated in CI.
+- **[RUNBOOK.md](https://github.com/IpshitaChaudhary/ipshita_terraform_infrastructure_module/blob/main/RUNBOOK.md)**: production lessons, one entry per real failure, each with the symptom, the check that confirms it and the fix. Topics include CloudFront 502s behind an ALB, ECS deploy loops, orphaned security groups and CodeBuild OOMs.
+- **[jenkins-ci-cd-pipeline](https://github.com/IpshitaChaudhary/jenkins-ci-cd-pipeline)**: an end-to-end Jenkins pipeline with SonarQube, Trivy, Docker and Kubernetes.
 
-* Terraform
-* Ansible
-* Cloud Formation
-* Helm
+### Stack
 
-### Containers & Orchestration
+- **Cloud:** AWS (primary), GCP, Azure
+- **Containers:** Docker, Kubernetes, Amazon ECS, EKS, App Runner, ECR
+- **IaC:** Terraform, CloudFormation
+- **CI/CD:** GitHub Actions, Jenkins, AWS CodePipeline / CodeBuild / CodeDeploy, GitLab, Azure DevOps, Argo CD
+- **Observability & SRE:** Datadog, Prometheus, Grafana, New Relic, CloudWatch, PagerDuty, SLOs, incident response, k6 load testing
+- **Security:** IAM least privilege, WAF, Shield, Secrets Manager, ACM, Vault
+- **Scripting:** Bash, Python, YAML
 
-* Docker
-* Kubernetes
-* Amazon EKS
-* Amazon ECS
+### Certifications
 
-### CI/CD
+- AWS Certified Solutions Architect – Associate (Dec 2025)
+- Google Cloud Certified – Associate Cloud Engineer (Oct 2023)
+- HashiCorp Certified: Terraform Associate (Mar 2023)
 
-* GitHub Actions
-* Jenkins
-* Azure DevOps
-* Gitlab
-* AWS Code Pipeline
+### Contact
 
-### Monitoring & Logging
-
-* Prometheus
-* Grafana
-* New Relic
-* Amazon CloudWatch
-* Datadog
-
-### Version Control
-
-* Git
-* GitHub
-* Bitbucket
-
-### Programming & Scripting
-
-* Bash
-* Python
-* YAML
-
----
-
-## 📜 Certifications
-
-* AWS Certified Solutions Architect
-* Google Cloud Certification
-* Terraform Certified DevOps Engineer
-
----
-
-## 📂 Featured Projects
-
-I'm currently building and documenting production-inspired DevOps projects, including:
-
-* AWS Infrastructure with Terraform
-* Kubernetes on Amazon EKS
-* GitHub Actions CI/CD Pipelines
-* Dockerized Applications
-* Helm Charts
-* Monitoring with Prometheus & Grafana
-* Bash & Python Automation Scripts
-
-Stay tuned as these repositories are added!
-
----
-
-## 🌱 Currently Learning
-
-* GitOps
-* Argo CD
-* Platform Engineering
-* Kubernetes Security
-* FinOps
-* devSecOps
-
----
-
-## 📫 Connect With Me
-
-* LinkedIn: *(https://www.linkedin.com/in/ipshitachaudhary2000/)*
-* Email: [ipshitachaudhary2000@gmail.com](mailto:ipshitachaudhary2000@gmail.com)
-
----
-
-⭐ Thanks for visiting my profile! I'm continuously learning, building, and sharing my DevOps journey.
-
+[LinkedIn](https://www.linkedin.com/in/ipshitachaudhary2000/) · [ipshitachaudhary2000@gmail.com](mailto:ipshitachaudhary2000@gmail.com)
