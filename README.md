@@ -20,7 +20,7 @@ I build cloud platforms that ship faster and stay up. Five years across e-commer
 
 ### Featured work
 
-- **[ipshita_terraform_infrastructure_module](https://github.com/IpshitaChaudhary/ipshita_terraform_infrastructure_module)**: 17 security-first AWS Terraform modules (ECS, EKS, App Runner, Lambda, VPC, IAM, S3, SQS, SNS, ElastiCache, CloudFront, Route 53 and more). Encrypted, private and least-privilege by default, and every module is validated in CI.
+- **[ipshita_terraform_infrastructure_module](https://github.com/IpshitaChaudhary/ipshita_terraform_infrastructure_module)**: 18 security-first AWS Terraform modules (ECS, EKS, App Runner, Lambda, VPC, IAM, S3, SQS, SNS, ElastiCache, CloudFront, Route 53, SSM access and more), released as [v1.0.0](https://github.com/IpshitaChaudhary/ipshita_terraform_infrastructure_module/releases/tag/v1.0.0). Encrypted, private and least-privilege by default, and every module is validated in CI.
 - **[RUNBOOK.md](https://github.com/IpshitaChaudhary/ipshita_terraform_infrastructure_module/blob/main/RUNBOOK.md)**: production lessons, one entry per real failure, each with the symptom, the check that confirms it and the fix. Topics include CloudFront 502s behind an ALB, ECS deploy loops, orphaned security groups and CodeBuild OOMs.
 - **[jenkins-ci-cd-pipeline](https://github.com/IpshitaChaudhary/jenkins-ci-cd-pipeline)**: an end-to-end Jenkins pipeline with SonarQube, Trivy, Docker and Kubernetes.
 
