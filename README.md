@@ -29,12 +29,12 @@ I build cloud platforms that ship faster and stay up. Five years across e-commer
 ### Stack
 
 - **Cloud:** AWS (primary), GCP, Azure
-- **Containers:** Docker, Kubernetes, Amazon ECS, EKS, App Runner, ECR
-- **IaC:** Terraform, CloudFormation
+- **Containers & Kubernetes:** Docker, Kubernetes, Helm, Amazon ECS, EKS, Karpenter, App Runner, ECR
+- **IaC:** Terraform (tflint, Checkov), CloudFormation
 - **CI/CD:** GitHub Actions, Jenkins, AWS CodePipeline / CodeBuild / CodeDeploy, GitLab, Azure DevOps, Argo CD
 - **Observability & SRE:** Datadog, Prometheus, Grafana, New Relic, CloudWatch, PagerDuty, SLOs, incident response, k6 load testing
-- **Security:** IAM least privilege, WAF, Shield, Secrets Manager, ACM, Vault
-- **Scripting:** Bash, Python, YAML
+- **Security:** IAM least privilege, WAF, Shield, Secrets Manager, External Secrets, ACM, Vault, Kyverno, Trivy, SonarQube
+- **Scripting:** Bash, Python (boto3, pytest), YAML
 
 ### Certifications
 
